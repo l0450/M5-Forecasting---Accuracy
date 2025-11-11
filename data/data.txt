@@ -4,3 +4,23 @@ Files
 - sample_submission.csv - The correct format for submissions. Reference the Evaluation tab for more info.
 - sell_prices.csv - Contains information about the price of the products sold per store and date.
 - sales_train_evaluation.csv - Includes sales [d_1 - d_1941] (labels used for the Public leaderboard)
+CSV files created while working on exploration.ipynb file:
+- final_dataframe_test
+- final_dataframe
+- final_future_data
+SAV files created while working on featureeengineering.ipynb file:
+- label_encoder_cat_id.sav
+- label_encoder_dept_id.sav
+- label_encoder_event_name_1.sav
+- label_encoder_event_name_2.sav
+- label_encoder_event_type_1.sav
+- label_encoder_event_type_2.sav
+- label_encoder_item_id.sav
+- label_encoder_state_id.sav
+- label_encoder_store_id.sav
+- label_encoder_year.sav
+CSV files created while working on modelling.ipynb file:
+- cs1.csv
+- final_test1.csv
+- test1.csv
+- train1.csv

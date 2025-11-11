@@ -13,3 +13,20 @@ The objective of the M5 forecasting competition is to advance the theory and pra
 uncertainty distribution, there will be two parallel tracks using the same dataset, the first
 requiring 28 days ahead point forecasts and the second 28 days ahead probabilistic forecasts for the median and four prediction intervals (50%, 67%, 95%, and 99%).
 - Fifth, for the first time it focuses on series that display intermittency, i.e., sporadic demand including zeros.
+
+## Approach ##
+
+I have started on EDA (Exploratory Data Analysis) based on the data provided by Kaggle. For this reason I created this notebook below.
+
+### exploration.ipynb ###
+
+In this notebook I described all the exploratory data analysis done on data and prepration/combining of data provided in Kaggle for further processing. In this file we have several information on how sales are varying according to state, category, department etc.
+
+### featureengineering.ipynb ###
+
+This Notebook describes all feature engineering I have done on the data. We have various time series and date related done feature engineering in this notebook.
+
+### modelling.ipynb ###
+
+On this exact notebook you can find 2 machine learning models used for sales forecasting. Here I have shown the result by both custom implementation of WRMSSE on test and cross validation data.
+The ML models I have used are: LSTM and CNN-LSTM NN (both with no date features).
